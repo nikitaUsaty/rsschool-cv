@@ -18,8 +18,8 @@ experience I have demonstrated strong analytical skills and creativity.
 
 ## Professional Experience
 
-Nov 2018 – Jan 2020
-**Kika Tech**
+Nov 2018 – Jan 2020\
+**Kika Tech**\
 **Overseas operator** (Beijing, China)
 
 - Assisting the company in localizing the keyboard application to the Russian
@@ -30,12 +30,12 @@ Nov 2018 – Jan 2020
   prediction review. Bugs report. General overview and suggesting to improve
   the app.
 
-May 2017
+May 2017\
 **Dubbing, voice over, translation, subtitling** (Beijing, China)
 
 - Monkey King, 38 episodes, various roles
 
-May 2016
+May 2016\
 **Dubbing, voice over, translation** (Beijing, China)
 
 - Aftershock, 38 episodes, various roles
@@ -44,18 +44,18 @@ May 2016
 
 ## Education
 
-**University of Science and Technology** 2019 – Present
+**University of Science and Technology** 2019 – Present\
 Master of International Economics
 
-**Capital University of Economics and Business** 2015 – 2019
+**Capital University of Economics and Business** 2015 – 2019\
 Bachelor of International Trade
 
-**Belarusian State University** 2015 – 2019
-
+**Belarusian State University** 2015 – 2019\
 Bachelor of International Management/
 Qualification "Economist-manager"
 
 **Beijing International Studies University** 2014 - 2015
+
 HSK 5
 
 **Personal qualities**
