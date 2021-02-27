@@ -2,7 +2,8 @@
 
 ### MIKITA USATY
 
-__nikitausatiy@yandex.ru__
+**nikitausatiy@yandex.ru**
+
 +(375) 293203031
 
 ---
@@ -82,7 +83,7 @@ HSK 5
 
 - Belarus Embassy representative in Beijing, China. (2018)
 
-## Code Exaple
+## Code Example
 
 ```javascript
 let str9 = 'I like to eat, eat, eat apples and bananas'
