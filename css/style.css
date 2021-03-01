@@ -9,6 +9,11 @@
   overflow-y: hidden;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -32,6 +37,22 @@ header .info {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+}
+
+header .info .contact {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .info .contact a {
+  font-weight: bolder;
+  padding: 5px 0;
 }
 
 header .photo {
