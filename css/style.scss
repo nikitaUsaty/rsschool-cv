@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+header {
+  margin-top: 30px;
+
+  .header-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .info {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+
+    .contact {
+      display: flex;
+      flex-direction: column;
+      ul {
+        padding-top: 10px;
+      }
+      li {
+        list-style-type: none;
+        padding-top: 2px;
+      }
+      a {
+        font-weight: bolder;
+        padding: 5px 0;
+      }
+    }
+  }
+
+  .photo {
+    padding: 0;
+    position: relative;
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+
+    img {
+      align-items: start;
+      position: absolute;
+      left: 50%;
+
+      transform: translatxwe(-50%, -50%);
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+}
+main {
+  margin: 40px 300px;
+  border-top: 2px solid #808080;
+}
+.statement {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+
+  p {
+    margin-top: 10px;
+    align-items: center;
+  }
+}
+.experience {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 2px solid black;
+}
+.company-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+
+  .specialization {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.current-exp {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.education {
+  margin-top: 40px;
+  border-top: 2px solid black;
+  padding-top: 20px;
+}
+
+.school {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.qualities {
+  margin: 40px 0;
+  border-top: 2px solid black;
+  padding-top: 20px;
+
+  ul {
+    margin-top: 20px;
+    margin-left: 50px;
+
+    li {
+      margin-top: 5px;
+    }
+  }
+}
+
+.skills {
+  margin-top: 40px;
+  border-top: 2px solid black;
+  padding-top: 20px;
+
+  ul {
+    margin-top: 20px;
+    margin-left: 50px;
+
+    li {
+      margin-top: 5px;
+    }
+  }
+}
+
+.code {
+  margin-top: 40px;
+  border-top: 2px solid #808080;
+
+  h4 {
+    margin: 20px 0;
+  }
+
+  p {
+    margin-left: 20px;
+    font-style: italic;
+    font-weight: lighter;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  margin: 40px 0;
+  color: gray;
+}
+.rights {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links {
+  ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 150px;
+
+    li {
+      padding: 0 10px;
+    }
+  }
+}
