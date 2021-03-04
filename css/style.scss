@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }
-
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
@@ -44,14 +46,15 @@ header {
   .photo {
     padding: 0;
     position: relative;
-    width: 144px;
-    height: 144px;
+    width: 135px;
+
+    border-radius: 50%;
 
     img {
       align-items: start;
       position: absolute;
       left: 50%;
-      top: 50%;
+
       transform: translate(-50%, -50%);
       max-width: 100%;
       max-height: 100%;
