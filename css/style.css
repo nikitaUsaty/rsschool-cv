@@ -81,8 +81,8 @@ header .photo img {
           align-items: start;
   position: absolute;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translatxwe(-50%, -50%);
+          transform: translatxwe(-50%, -50%);
   max-width: 100%;
   max-height: 100%;
 }
