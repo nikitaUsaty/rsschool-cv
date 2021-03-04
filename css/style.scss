@@ -6,27 +6,34 @@
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
-  overflow-y: hidden;
 }
 a {
   color: black;
   text-decoration: none;
 }
 header {
-  display: flex;
-  justify-content: space-around;
   margin-top: 30px;
 
+  .header-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .info {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-top: 40px;
 
     .contact {
-      margin-top: 40px;
       display: flex;
       flex-direction: column;
+      ul {
+        padding-top: 10px;
+      }
+      li {
+        list-style-type: none;
+        padding-top: 2px;
+      }
       a {
         font-weight: bolder;
         padding: 5px 0;
@@ -35,12 +42,10 @@ header {
   }
 
   .photo {
-    margin: 10px;
     padding: 0;
     position: relative;
-    width: 164px;
-    height: 164px;
-    margin-left: -500px;
+    width: 144px;
+    height: 144px;
 
     img {
       align-items: start;
@@ -55,7 +60,7 @@ header {
 }
 main {
   margin: 40px 300px;
-  border-top: 2px solid black;
+  border-top: 2px solid #808080;
 }
 .statement {
   display: flex;
@@ -81,16 +86,11 @@ main {
     display: flex;
     flex-direction: column;
   }
-
-  .current-exp {
-    ul {
-      li {
-        margin: 5px 0;
-      }
-    }
-  }
 }
-
+.current-exp {
+  margin-top: 20px;
+  margin-left: 50px;
+}
 .education {
   margin-top: 40px;
   border-top: 2px solid black;
@@ -101,6 +101,7 @@ main {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  padding: 20px;
 }
 
 .qualities {
@@ -129,6 +130,46 @@ main {
 
     li {
       margin-top: 5px;
+    }
+  }
+}
+
+.code {
+  margin-top: 40px;
+  border-top: 2px solid #808080;
+
+  h4 {
+    margin: 20px 0;
+  }
+
+  p {
+    margin-left: 20px;
+    font-style: italic;
+    font-weight: lighter;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  margin: 40px 0;
+  color: gray;
+}
+.rights {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links {
+  ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 150px;
+
+    li {
+      padding: 0 10px;
     }
   }
 }

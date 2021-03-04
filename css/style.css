@@ -6,7 +6,6 @@
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
-  overflow-y: hidden;
 }
 
 a {
@@ -15,32 +14,32 @@ a {
 }
 
 header {
+  margin-top: 30px;
+}
+
+header .header-name {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin-top: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 header .info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 40px;
 }
 
 header .info .contact {
-  margin-top: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -48,6 +47,15 @@ header .info .contact {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+header .info .contact ul {
+  padding-top: 10px;
+}
+
+header .info .contact li {
+  list-style-type: none;
+  padding-top: 2px;
 }
 
 header .info .contact a {
@@ -56,12 +64,10 @@ header .info .contact a {
 }
 
 header .photo {
-  margin: 10px;
   padding: 0;
   position: relative;
-  width: 164px;
-  height: 164px;
-  margin-left: -500px;
+  width: 144px;
+  height: 144px;
 }
 
 header .photo img {
@@ -79,7 +85,7 @@ header .photo img {
 
 main {
   margin: 40px 300px;
-  border-top: 2px solid black;
+  border-top: 2px solid #808080;
 }
 
 .statement {
@@ -126,8 +132,9 @@ main {
           flex-direction: column;
 }
 
-.company-info .current-exp ul li {
-  margin: 5px 0;
+.current-exp {
+  margin-top: 20px;
+  margin-left: 50px;
 }
 
 .education {
@@ -144,6 +151,7 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 20px;
+  padding: 20px;
 }
 
 .qualities {
@@ -174,5 +182,56 @@ main {
 
 .skills ul li {
   margin-top: 5px;
+}
+
+.code {
+  margin-top: 40px;
+  border-top: 2px solid #808080;
+}
+
+.code h4 {
+  margin: 20px 0;
+}
+
+.code p {
+  margin-left: 20px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 20px;
+  margin: 40px 0;
+  color: gray;
+}
+
+.rights {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin-left: 150px;
+}
+
+.links ul li {
+  padding: 0 10px;
 }
 /*# sourceMappingURL=style.css.map */

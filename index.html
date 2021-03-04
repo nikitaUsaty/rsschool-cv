@@ -4,25 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
     <title>Resume</title>
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <section class="info">
+        <div class="header-name">
           <h1>RESUME</h1>
-          <h3>MIKITA USATY</h3>
-          <div class="contact">
-            <a href="nikitausatiy@yandex.ru" class="email"
-              >nikitausatiy@yandex.ru</a
-            >
-            <a href="+375293203031" class="phone-number">+(375) 293203031</a>
-          </div>
-        </section>
+        </div>
+        <div class="info">
+          <section class="contact">
+            <h3>MIKITA USATY</h3>
+            <ul>
+              <li>
+                <a href="nikitausatiy@yandex.ru" class="email"
+                  >nikitausatiy@yandex.ru</a
+                >
+              </li>
+              <li>
+                <a href="+375293203031" class="phone-number"
+                  >+(375) 293203031</a
+                >
+              </li>
+            </ul>
+          </section>
 
-        <section class="photo">
-          <img src="./img/ava.png" alt="img" />
-        </section>
+          <img class="photo" src="./img/ava.png" alt="img" />
+        </div>
       </header>
       <main>
         <section class="statement">
@@ -144,7 +158,38 @@
             <li><strong>HTML/CSS/JavaScript</strong></li>
           </ul>
         </section>
+        <article class="code">
+          <h4>Code Example</h4>
+          <p>
+            <code>
+              const getRandomAnimal = async (url) =&gt; {<br />
+              let data<br />
+              do {<br />
+              data = await getResource(url)<br />
+              } while (data[0].breeds.length === 0)<br />
+
+              name.innerText = data[0].<br />breeds[0].name<br />
+              weight.innerText = data[0].<br />breeds[0].weight.metric image.src
+              = data[0].url<br />
+              }</code
+            >
+          </p>
+        </article>
       </main>
+      <footer>
+        <div class="rights">
+          <h5>2021 all rights reserved &#169;</h5>
+        </div>
+        <nav class="links">
+          <ul>
+            <li>
+              <a href="https://github.com/nikitaUsaty/rsschool-cv.git">
+                <i class="fab fa-github"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
     </div>
   </body>
 </html>
